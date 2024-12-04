@@ -1,6 +1,6 @@
 import lupa from '../../assets/lupa.png'
 import {BrowserRouter, Routes, Route, Link} from 'react-router-dom'
-import logoLivro from '../../assets/logoLivro.png'
+import logoBook from '../../assets/logoBook.png'
 import Inicio from '../../pages/inicio/Inicio'
 import LivrosDoados from '../../pages/livrosDoados/LivrosDoados'
 import QueroDoar from '../../pages/queroDoar/QueroDoar'
@@ -11,7 +11,7 @@ export default function Header(){
         <BrowserRouter>
             <header className={s.header}>
                 <section className={s.logoHeader}>
-                    <img src={logoLivro} alt="Imagem de uma ilustração de livro com capa azul aberto como se estivesse sendo foleado." />
+                    <img src={logoBook} alt="Imagem de um logotipo com ilustração de livro com capa azul aberto como se estivesse sendo foleado." />
                     <h1>Livros Vai na Web</h1>
                 </section>
                 <nav className={s.navHeader}>

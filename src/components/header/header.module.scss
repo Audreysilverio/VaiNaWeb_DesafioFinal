@@ -3,39 +3,37 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 5%; // Adiciona espaçamento interno
+    padding: 0 5%; 
     height: 20vh;
-    box-sizing: border-box; // Garante que padding não interfira na largura total
+    box-sizing: border-box;
 }
 
-// Estilo da logo e título
 .logoHeader {
     display: flex;
-    justify-content: flex-start; // Melhor alinhamento
+    justify-content: flex-start;
     align-items: center;
-    flex: 1; // Permite expansão proporcional
-    gap: 15px; // Espaçamento entre imagem e título
+    flex: 1; 
+    gap: 15px; 
 
     h1 {
         font-size: 30px;
         color: #FFF;
-        white-space: nowrap; // Impede quebra de linha no título
+        white-space: nowrap;
     }
 }
 
-// Menu de navegação
 .navHeader {
-    flex: 2; // Proporção para se adaptar ao espaço disponível
+    flex: 2; 
     display: flex;
-    justify-content: center; // Centraliza os links
+    justify-content: center;
     align-items: center;
 
     ul {
         display: flex;
-        justify-content: space-evenly; // Espaça links de forma uniforme
+        justify-content: space-evenly;
         align-items: center;
         list-style: none;
-        width: 100%; // Garante que ocupe toda a largura disponível
+        width: 100%;
     }
 
     .link {
@@ -45,23 +43,23 @@
         transition: color 0.3s;
 
         &:hover {
-            color: #FFD700; // Cor de destaque ao passar o mouse
+            color: #FFD700;
         }
     }
 }
 
-// Campo de busca
+
 .barraDeBusca {
-    flex: 1; // Adapta a largura proporcionalmente
-    max-width: 300px; // Limita a largura máxima
+    flex: 1; 
+    max-width: 300px; 
     border: solid #FFF 2px;
     height: 6vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-radius: 20px;
-    padding: 0 10px; // Adiciona espaçamento interno
-    box-sizing: border-box; // Garante que o padding não afete o tamanho
+    padding: 0 10px; 
+    box-sizing: border-box; 
     margin-right: 1%;
 
     input {
@@ -86,19 +84,19 @@
     }
 }
 
-// Estilos para telas menores
+
 @media (max-width: 768px) {
     .header {
         flex-direction: column;
-        height: auto; // Ajusta altura automaticamente
-        padding: 10px; // Reduz espaçamento interno
+        height: auto; 
+        padding: 10px; 
     }
 
     .logoHeader {
         justify-content: center;
         flex: none;
         width: auto;
-        margin-bottom: 10px; // Espaçamento entre seções
+        margin-bottom: 10px;
     }
 
     .navHeader {
@@ -110,7 +108,7 @@
     .barraDeBusca {
         flex: none;
         width: 100%;
-        max-width: none; // Remove limite de largura
+        max-width: none;
         margin-bottom: 10px;
     }
 }
