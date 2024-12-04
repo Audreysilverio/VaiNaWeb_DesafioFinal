@@ -13,7 +13,7 @@ export default function Footer(){
                 <nav>
                     <a href=""><img src={iconeFacebook} alt="Imagem branca da ícone do Facebook" /></a>
                     <a href=""><img src={iconeTwitter} alt="Imagem branca da ícone do Twitter" /></a>
-                    <a href=""><img src={iconeYoutube} alt="Imagem branca da ícone do Youtube" /></a>
+                    <a href=""><img src={iconeYoutube} alt="Imagem branca da ícone do YouTube" /></a>
                     <a href=""><img src={iconeLinkedin} alt="Imagem branca da ícone do Linkedin" /></a>
                     <a href=""><img src={iconeInstagram} alt="Imagem branca da ícone do Instagram" /></a>
                 </nav>
