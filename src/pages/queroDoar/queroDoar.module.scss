@@ -58,11 +58,42 @@ input {
     padding: 10px;
     cursor: pointer;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
 
     &:hover {
         background-color: #003f70;
         transition: 0.3s ease-in-out;
     }
+}
+
+.buttonDoar img {
+    width: 20px; 
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.popupSucesso {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    animation: fadeInOut 3s ease-in-out;
+}
+
+@keyframes fadeInOut {
+    0% { opacity: 0; transform: translateY(10px); }
+    10% { opacity: 1; transform: translateY(0px); }
+    90% { opacity: 1; transform: translateY(0px); }
+    100% { opacity: 0; transform: translateY(10px); }
 }
 
 @media (max-width: 780px) {
